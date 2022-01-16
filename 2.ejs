@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Windows Updates</h1>
+    <script src="https://www.gov.uk/bank-holidays.json"></script>
+    <script src="filter.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <font size="2">Last
+      <select class="inputxlg" id="rangeval">
+        <option value="1">1</option>
+        <option value="30">30</option>
+        <option value="45">45</option>
+      </select>
+      Number of Days</font>
+    <table id="WinUpdate">
+      <tr>
+        <td>Server1</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Title</th>
+        <th>Status</th>
+      </tr>
+      <tbody class="mainBody">
+        <tr scope="row">
+          <td>03/01/2019 03:03:39</td>
+          <td>Apple, Inc. - USBDevice - 5/7/2018 12:00:00 AM - 423.36</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 21:27:39</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 20:27:39</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 17:34:39</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 17:28:00</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487029)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 01:53:47</td>
+          <td>Intel - net - 9/3/2018 12:00:00 AM - 20.70.3.3</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 01:53:20</td>
+          <td>Logitech - Image - 10/22/2012 12:00:00 AM - 13.80.853.0</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/28/2019 01:53:19</td>
+          <td>Logitech - MEDIA - 10/22/2012 12:00:00 AM - 13.80.853.0</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/27/2019 18:50:32</td>
+          <td>Western Digital Technologies - WDC_SAM - 11/30/2017 12:00:00 AM - 1.2.0.0</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/27/2019 17:37:28</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/26/2019 17:30:06</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/26/2019 00:00:54</td>
+          <td>DisplayLink - Display - 5/22/2017 12:00:00 AM - 8.2.1952.0</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/25/2019 20:48:52</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/25/2019 18:26:12</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/24/2019 08:26:23</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/24/2019 03:46:04</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/24/2019 03:06:31</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 08:25:24</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:18:57</td>
+          <td>2019-02 Cumulative Update for Windows 10 Version 1803 for x64-based Systems (KB4487017)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:16:07</td>
+          <td>Update for Microsoft Word 2016 (KB4462145) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:10:33</td>
+          <td>Update for Microsoft PowerPoint 2016 (KB4461599) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:10:24</td>
+          <td>2019-02 Security Update for Adobe Flash Player for Windows 10 Version 1803 for x64-based Systems (KB4487038)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:10:21</td>
+          <td>Update for Microsoft Office 2016 (KB4022161) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:10:15</td>
+          <td>Update for Microsoft Access 2016 (KB4032257) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:10:06</td>
+          <td>Update for Microsoft Project 2016 (KB4462134) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:09:59</td>
+          <td>Click-to-Run Update Support</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:09:55</td>
+          <td>Update for Microsoft Outlook 2016 (KB4462147) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:04:28</td>
+          <td>2019-02 Update for Windows 10 Version 1803 for x64-based Systems (KB4023057)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:01:54</td>
+          <td>Security Update for Microsoft Office 2016 (KB4018294) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:01:47</td>
+          <td>Windows Malicious Software Removal Tool x64 - February 2019 (KB890830)</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 03:00:04</td>
+          <td>Update for Skype for Business 2016 (KB4462114) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 02:49:20</td>
+          <td>Security Update for Microsoft Office 2016 (KB4462146) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 02:43:23</td>
+          <td>Update for Microsoft Office 2016 (KB4461536) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+        <tr scope="row">
+          <td>02/21/2019 02:37:46</td>
+          <td>Security Update for Microsoft Excel 2016 (KB4462115) 64-Bit Edition</td>
+          <td class="up">Succeeded</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tr>
+        <td>Windows Update Total Count</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>Windows Update Success Count</td>
+        <td class="UP">34</td>
+      </tr>
+      <tr>
+        <td>Windows Update Success With Errors Count</td>
+        <td class="Yellow">0</td>
+      </tr>
+      <tr>
+        <td>Windows Update Waiting/Missed Count</td>
+        <td class="Yellow">0</td>
+      </tr>
+      <tr>
+        <td>Windows Update Failed Count</td>
+        <td class="down">0</td>
+      </tr>
+      <tr>
+        <td>Windows Update Aborted Count</td>
+        <td class="Down">0</td>
+      </tr>
+    </table>
+    
+    </body>
+    </html>  
+</body>
+</html>
